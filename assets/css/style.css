@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/darkness.png);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin: 1%;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin: 1%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    margin: 1%;
+}
+
+div {
+    font-size: 20px;
+    color: white;
+    margin: 1%;
+}

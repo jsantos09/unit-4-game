@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,36 @@
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
+
 <body>
-    
+    <div>
+        <h1>Crystal Collector</h1>
+    </div>
+    <div id="instructions">
+        <p>Each crystal has a specific value</p>
+        <p>To win: match your total score to the random number provided.</p>
+        <p>You lose if you go over it.</p>
+    </div>
+
+    <div id="crystals">
+        <img src="./assets/images/diamond.jpeg" alt="diamond" id="diamond-img">
+        <img src="./assets/images/emerald.jpeg" alt="emerald" id="emerald-img">
+        <img src="./assets/images/ruby.jpeg" alt="ruby" id="ruby-img">
+        <img src="./assets/images/sapphire.jpeg" alt="sapphire" id="sapphire-img">
+    </div>
+
+    <div id="user-number"></div>
+    <div id="target-number"></div>
+    <div id="stats">
+        <p id="wins"></p>
+        <p id="losses"></p>
+    </div>
 
 
 
-
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="./assets/javascript/game.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 </body>
+
 </html>
